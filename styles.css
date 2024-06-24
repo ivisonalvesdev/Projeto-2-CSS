@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.26px;
+    color: #989D9C;
+    margin: 40px;
+}
+
+a{
+    margin-left: 15px;
+    cursor: pointer;
+}
+a:hover{
+    opacity: 0.4;
+}
+
+.button-top{
+    Width: 130px;
+    Height: 41px;
+    font-size: 24px;
+    background-color: #665AE1;
+    border-radius: 30px;
+    color: #ffffff;
+    margin-left: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.button-top:hover{
+    opacity: 0.6;
+}
+
+.button-top:active{
+    opacity: 0.10;
+}
+
+.caixa-img{
+    display: inline-block;
+}
+
+img{
+    width: 466px;
+    height: 400px;
+    margin: 90px 0 0 150px;
+
+}
+
+.caixa-texto{
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    margin-left: 70px;
+}
+
+h1{
+    width: 513px;
+    height: 122px;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 121.9px;
+    color:  #515151;
+}
+
+h3{
+    width: 448px;
+    height: 71px;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 70.7px;
+    color:  #515151;
+    margin-bottom: 40px;
+}
+
+p{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 29.26px;
+    color: #848484;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.button-bottom{
+    Width: 210px;
+    Height: 54px;
+    border-radius: 20.5px;
+    background-color: #ADFF00;
+    border: none;
+    color: #000000;
+    font-weight: 700;
+    line-height: 34.13px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.button-bottom:hover{
+    opacity: 0.8;
+}
+
+.button-bottom:active{
+    opacity: 0.10;
+}
+
+@media screen and (max-width: 900px){
+    
+    .caixa-link{
+        display: none;
+    }
+
+    p{
+        display: none;
+    }
+
+    .caixa-img{
+        margin-top: 20px;
+        display: block;
+        width: 100vw;
+        height: auto;
+
+    }
+    
+    .caixa-texto{
+        display: block;
+        text-align: center;
+        width: 100vw;
+        height: auto;
+       
+    }
+
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        height: auto;
+        text-align: center;
+
+    }
+
+    h1{
+        font-size: 50px;
+        text-align: center;
+        width: 100vw;
+        margin: 0;
+    }
+
+    h3{
+        font-size: 30px;
+        text-align: center;
+        width: 100vw;
+        margin: 0;
+    }
+
+
+    
+
+
+
+
+
+
+
+}
